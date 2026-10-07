@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signet theme documentation — The Frenchises Studio</title>
+    <meta
+      name="description"
+      content="How to set up and customize Signet, a Shopify theme for specialty coffee roasters and single-origin food brands, by The Frenchises Studio."
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site">
+      <a class="brand" href="./">Signet documentation</a>
+      <nav aria-label="Site">
+        <a href="#faq">FAQ</a>
+        <a href="support/">Support</a>
+      </nav>
+    </header>
+
+    <div class="layout">
+      <aside class="toc" aria-label="On this page">
+        <ol>
+          <li><a href="#start">Getting started</a></li>
+          <li><a href="#settings">Theme settings</a></li>
+          <li><a href="#header">Header</a></li>
+          <li><a href="#home">Home page sections</a></li>
+          <li><a href="#lot">Lot sheet and metafields</a></li>
+          <li><a href="#product">Product page</a></li>
+          <li><a href="#collection">Collections and filters</a></li>
+          <li><a href="#cart">Cart and checkout</a></li>
+          <li><a href="#journal">Blog and articles</a></li>
+          <li><a href="#pages">Pages and contact</a></li>
+          <li><a href="#footer">Footer</a></li>
+          <li><a href="#more">More sections</a></li>
+          <li><a href="#motion">Motion and accessibility</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#support">Support</a></li>
+        </ol>
+      </aside>
+
+      <main id="content">
+        <h1>Signet</h1>
+        <p class="lead">
+          Signet is a Shopify theme for brands that sell a few products with a story behind each one:
+          specialty coffee roasters, tea houses, single-origin food producers. Every product page can
+          show where the product comes from, lot by lot.
+        </p>
+        <figure>
+          <img src="assets/signet-desktop.png" alt="The Signet home page: a full-width coffee farm photo, the featured lot and a grid of coffee bags." width="1000" height="1248" />
+          <figcaption>The Signet demo store, Roots &amp; Beans.</figcaption>
+        </figure>
+
+        <h2 id="start">Getting started</h2>
+        <ol>
+          <li>In your Shopify admin, go to <strong>Online Store &gt; Themes</strong> and add Signet from the Theme Store.</li>
+          <li>Click <strong>Customize</strong> to open the theme editor. Every page template is built from sections you can add, remove and reorder.</li>
+          <li>Set your logo and main menu in the <a href="#header">Header</a>, then your colors and fonts in <a href="#settings">Theme settings</a>.</li>
+          <li>If you sell products with an origin (coffee, tea, cacao), set up the <a href="#lot">lot metafields</a> so the lot sheet and product cards fill in automatically.</li>
+          <li>When everything looks right, click <strong>Publish</strong>.</li>
+        </ol>
+        <div class="note">
+          Signet works with the free <strong>Shopify Search &amp; Discovery</strong> app for filters and
+          product recommendations. Signet does not require any other app.
+        </div>
+
+        <h2 id="settings">Theme settings</h2>
+        <p>Open <strong>Theme settings</strong> (the gear icon in the theme editor).</p>
+        <table>
+          <thead><tr><th>Group</th><th>Setting</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Colors</td><td>Color scheme</td><td>The paper, ink and accent colors used across the store.</td></tr>
+            <tr><td>Colors</td><td>Photo veil opacity</td><td>Darkens photos under text, from 0 to 60%, so text stays readable on any image.</td></tr>
+            <tr><td>Typography</td><td>Headings, Body</td><td>The fonts for headings and running text, picked from the Shopify font library.</td></tr>
+            <tr><td>Layout</td><td>Section rhythm</td><td><em>Editorial</em> leaves generous space between sections; <em>Dense</em> tightens it for larger catalogs.</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="header">Header</h2>
+        <p>
+          The header floats above the page as a card. It hides when a visitor scrolls down and comes
+          back as soon as they scroll up.
+        </p>
+        <table>
+          <thead><tr><th>Setting</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Logo</td><td>Your logo image. Without one, the store name is shown in text.</td></tr>
+            <tr><td>Logo height</td><td>The height of the logo image in the header.</td></tr>
+            <tr><td>Menu</td><td>The main menu, shown on desktop and in the mobile menu.</td></tr>
+            <tr><td>Customer account menu</td><td>The menu shown in the customer account pop-up.</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="home">Home page sections</h2>
+        <h3>Featured lot hero</h3>
+        <p>
+          A full-width photo with the product you want to put forward. Choose a <strong>Featured
+          product</strong>, a <strong>Background image</strong>, an <strong>Eyebrow</strong>, a
+          <strong>Text</strong> and a <strong>Button label</strong>. Without a product, the hero shows
+          <strong>Title when no product is selected</strong>.
+        </p>
+        <h3>Featured products</h3>
+        <p>
+          A horizontal row of products. Pick a <strong>Collection</strong> as the source, set
+          <strong>Products to show</strong>, and write the <strong>Heading</strong> and its
+          <strong>Heading, accented part</strong>, shown in a lighter tone. Turn on
+          <strong>Show "See all" button</strong> to link to the full collection. Without a
+          collection, the section shows your whole catalog.
+        </p>
+        <h3>Brand context</h3>
+        <p>
+          A photo with a card that tells your story: <strong>Background image</strong>,
+          <strong>Eyebrow</strong>, <strong>Heading</strong>, <strong>Text</strong>, and a
+          <strong>Link label</strong> with its <strong>Link</strong>.
+        </p>
+        <h3>Lot sheet</h3>
+        <p>The traceability sheet of one product. See <a href="#lot">Lot sheet and metafields</a>.</p>
+        <h3>Journal</h3>
+        <p>
+          The latest articles of a <strong>Blog</strong>, in a horizontal row. Set
+          <strong>Articles to show</strong> and the <strong>Link label</strong>.
+        </p>
+        <h3>Customer reviews</h3>
+        <p>Up to six <strong>Review</strong> blocks, each with a quote and its author.</p>
+
+        <h2 id="lot">Lot sheet and metafields</h2>
+        <p>
+          The lot sheet shows up to five rows of facts about a product: washing station, altitude,
+          harvest, roast date, varietal. Each row reads a product metafield in the
+          <code>signet</code> namespace, so the same section fills in for every product.
+        </p>
+        <ol>
+          <li>In your admin, go to <strong>Settings &gt; Custom data &gt; Products</strong> and add a definition for each row you want, in the <code>signet</code> namespace.</li>
+          <li>Turn on <strong>Storefront access</strong> for each definition, otherwise the theme cannot read it.</li>
+          <li>Fill in the values on each product page, in the <strong>Metafields</strong> card.</li>
+        </ol>
+        <table>
+          <thead><tr><th>Key</th><th>Type</th><th>Example</th></tr></thead>
+          <tbody>
+            <tr><td><code>signet.origin</code></td><td>Single line text</td><td>Kenya · Nyeri · 1,750 m — also shown under the product name on cards</td></tr>
+            <tr><td><code>signet.washing_station</code></td><td>Single line text</td><td>Kiunyu Factory</td></tr>
+            <tr><td><code>signet.altitude</code></td><td>Single line text</td><td>1,750 m above sea level</td></tr>
+            <tr><td><code>signet.harvest</code></td><td>Single line text</td><td>November 2026</td></tr>
+            <tr><td><code>signet.roasted</code></td><td>Single line text</td><td>3 December 2026</td></tr>
+            <tr><td><code>signet.varietal</code></td><td>Single line text</td><td>SL28 · SL34</td></tr>
+          </tbody>
+        </table>
+        <p>
+          In the section, each row has a <strong>Row label</strong>, a <strong>Metafield key in the
+          signet namespace</strong> and a <strong>Fallback value</strong>, shown when a product has no
+          value. You can rename the rows and point them to other keys.
+        </p>
+
+        <h2 id="product">Product page</h2>
+        <ul>
+          <li><strong>Media gallery</strong>: images, Shopify-hosted videos, YouTube and Vimeo videos, and 3D models, which visitors can turn around and view in augmented reality on supported phones.</li>
+          <li><strong>Variant images</strong>: give each variant its own image in the admin; choosing the variant shows its image.</li>
+          <li><strong>Unit price</strong>: when a variant has a unit price measurement, the price per unit is shown next to the price.</li>
+          <li><strong>Subscriptions</strong>: with a subscription app, the purchase options appear above the buttons, and the cart shows the chosen plan.</li>
+          <li><strong>Show store pickup availability</strong>: shows whether the product can be picked up today, and where.</li>
+          <li><strong>Show complementary products</strong>: two products to buy with this one, set in the Search &amp; Discovery app under <strong>Product recommendations</strong>.</li>
+          <li><strong>Collapsible row</strong> blocks: tasting notes, brewing tips, shipping details. Add as many as you need.</li>
+          <li>App blocks can be added to the product information.</li>
+        </ul>
+
+        <h2 id="collection">Collections and filters</h2>
+        <p>
+          The collection page lists products in a grid with <strong>Show filters</strong> and
+          <strong>Show sorting</strong>. Filters come from the Search &amp; Discovery app: availability
+          and price by default, and any product metafield you add, such as origin. Set
+          <strong>Products per page</strong> and choose whether to <strong>Show collection
+          description</strong>.
+        </p>
+        <p>
+          Search opens from the magnifying glass in the header and suggests products, collections,
+          articles and pages as the visitor types.
+        </p>
+
+        <h2 id="cart">Cart and checkout</h2>
+        <p>
+          Adding a product opens a cart drawer on the side of the page. The cart page lists each line
+          with its quantity, plan and price, and an order summary. Turn on <strong>Show accelerated
+          checkout buttons</strong> to show the express checkout buttons of your payment providers,
+          such as Shop Pay, Apple Pay or Google Pay, and write the <strong>Empty cart text</strong>.
+        </p>
+
+        <h2 id="journal">Blog and articles</h2>
+        <p>
+          The blog page opens with a <strong>Featured article</strong> and continues with an
+          <strong>Article list</strong>. Article pages can <strong>Show reading time</strong> and
+          <strong>Show share link</strong>.
+        </p>
+
+        <h2 id="pages">Pages and contact</h2>
+        <p>
+          Standard pages show your page content in a comfortable reading column. The contact page adds
+          a form and an info card with your <strong>Address</strong>, <strong>Email</strong> and opening
+          hours.
+        </p>
+
+        <h2 id="footer">Footer</h2>
+        <ul>
+          <li><strong>Show email signup</strong>: a newsletter form over a background image.</li>
+          <li>Up to four <strong>Menu</strong> blocks, each shown as a column with its heading. A column without links is hidden.</li>
+          <li><strong>Show country/region selector</strong> and <strong>Show language selector</strong>, filled from your markets and languages.</li>
+          <li><strong>Show Follow on Shop button</strong>, available once the Shop channel is set up and Shop Pay is active.</li>
+        </ul>
+
+        <h2 id="more">More sections</h2>
+        <ul>
+          <li><strong>Custom section</strong>: a free-form section with an optional <strong>Background</strong> and any theme blocks.</li>
+          <li><strong>Custom Liquid</strong>: paste your own Liquid code.</li>
+          <li><strong>Apps</strong>: a section to hold app blocks.</li>
+          <li><strong>Age verifier</strong>: asks visitors to confirm their age before entering. Set the <strong>Minimum age</strong>, the texts and <strong>Where declining leads</strong>.</li>
+          <li><strong>Password page</strong>: shown while your store is password protected.</li>
+          <li><strong>Gift card</strong>: the page customers receive with their gift card code.</li>
+        </ul>
+
+        <h2 id="motion">Motion and accessibility</h2>
+        <p>
+          Sections reveal themselves gently as they come into view, element by element. The motion is
+          built with CSS only and loads no animation library. Visitors who ask their device to reduce
+          motion see the page without any animation, and so do browsers without JavaScript.
+        </p>
+        <p>
+          Every interactive element can be reached with the keyboard, the cart drawer and the age
+          verifier trap focus while they are open, and images use the alt text you write in the admin.
+        </p>
+
+        <h2 id="languages">Languages</h2>
+        <p>
+          Signet ships in English. To sell in other languages, add them in <strong>Settings &gt;
+          Languages</strong> and translate the theme with the free <strong>Translate &amp;
+          Adapt</strong> app from Shopify.
+        </p>
+
+        <h2 id="faq">FAQ</h2>
+        <details>
+          <summary>Do I need to sell coffee to use Signet?</summary>
+          <p>No. Signet fits any brand that sells a few products with a story: tea, cacao, olive oil, wine, honey. Rename the lot sheet rows to match your products.</p>
+        </details>
+        <details>
+          <summary>The lot sheet shows the fallback values. Why?</summary>
+          <p>The metafield definitions are missing, or their storefront access is off. See <a href="#lot">Lot sheet and metafields</a>.</p>
+        </details>
+        <details>
+          <summary>Filters do not appear on my collection page.</summary>
+          <p>Install the free Search &amp; Discovery app, then add filters under <strong>Filters</strong>. Also check that <strong>Show filters</strong> is on in the collection section.</p>
+        </details>
+        <details>
+          <summary>The complementary products do not show on the product page.</summary>
+          <p>Choose them for each product in Search &amp; Discovery, under <strong>Product recommendations</strong>, and keep <strong>Show complementary products</strong> on.</p>
+        </details>
+        <details>
+          <summary>Can I turn the animations off?</summary>
+          <p>Visitors who reduce motion on their device see no animation. The motion is part of the theme design and has no global switch.</p>
+        </details>
+        <details>
+          <summary>How do I update Signet?</summary>
+          <p>When a new version is out, Shopify shows it in <strong>Online Store &gt; Themes</strong>. Updating adds a new copy of the theme with your settings, which you can review before publishing.</p>
+        </details>
+        <details>
+          <summary>How do I get help?</summary>
+          <p>Use the <a href="support/">support form</a>. We answer within two business days.</p>
+        </details>
+
+        <h2 id="support">Support</h2>
+        <p>
+          Something does not work as described here? Contact The Frenchises Studio through the
+          <a href="support/">support form</a> or at
+          <a href="mailto:matis@thefrenchises.studio">matis@thefrenchises.studio</a>. We answer
+          within two business days, and fix critical bugs right away.
+        </p>
+        <p><a class="button" href="support/">Contact support</a></p>
+      </main>
+    </div>
+
+    <footer class="site">Signet is a Shopify theme by The Frenchises Studio.</footer>
+  </body>
+</html>
