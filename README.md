@@ -1,5 +1,5 @@
-# Signet theme documentation
+# Tessera theme documentation
 
-Public documentation and support page for **Signet**, a Shopify theme by The Frenchises Studio.
+Public documentation and support page for **Tessera**, a Shopify theme by The Frenchises Studio.
 
-Published at https://yagami38.github.io/signet-theme-docs/
+Published at https://yagami38.github.io/tessera-theme-docs/
